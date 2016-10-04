@@ -1,0 +1,26 @@
+/**
+* @mixins.scss 
+* Declare all mixins here
+*/
+
+// Global
+@import "variables";
+@import "mixins";
+
+// Elements
+@import "elements/typography";
+@import "elements/forms";
+
+// Layout
+@import "layouts/header";
+@import "layouts/content";
+@import "layouts/sidebar";
+@import "layouts/footer";
+
+// Components
+@import "components/accordion";
+@import "components/tableGrid";
+
+body{
+  font: $fontSize;
+}
